@@ -1,9 +1,9 @@
 # 120 FPS method
 
 <p align="center">
-  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_1.png?raw=true" width="32%" />
-  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_2.png?raw=true" width="32%" />
-  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_3.png?raw=true" width="32%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_1.png?raw=true" width="31%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_2.png?raw=true" width="31%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_3.png?raw=true" width="31%" />
 </p>
 
 [![Downloads](shields)](gt)
