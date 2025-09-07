@@ -1,14 +1,14 @@
 # 120 FPS method
 
 <p align="center">
-  <img src="picturelink" width="30%" />
-  <img src="picturelink" width="30%" />
-  <img src="picturelink" width="30%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_1.png?raw=true" width="30%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_2.png?raw=true" width="30%" />
+  <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_3.png?raw=true" width="30%" />
 </p>
 
 [![Downloads](shields)](gt)
 ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ut0ku/120fps-method/blob/master/LICENSE)
 
 A patcher that allows you to bypass TikTok's **FPS** restrictions and download videos without **FPS** compression. [TikTok Showcase](ttlink)
 
@@ -62,7 +62,7 @@ As a result, the compression engine applies a less aggressive frame rate reducti
 
 ## License
 
-This project is distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+This project is distributed under the **MIT License**. See the [LICENSE](https://github.com/ut0ku/120fps-method/blob/master/LICENSE) file for more information.
 
 ## ⚠️ Disclaimer
 
