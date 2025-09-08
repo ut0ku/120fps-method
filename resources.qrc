@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/telegram.svg</file>
+        <file>icons/tiktok.svg</file>
+        <file>icons/language_en.svg</file>
+        <file>icons/language_ru.svg</file>
+        <file>icons/guide.svg</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>fonts/DMSerifDisplay-Regular.ttf</file>
+        <file>fonts/OFL</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>translations/language_en.ts</file>
+        <file>translations/language_ru.ts</file>
+        <file>translations/language_en.qm</file>
+        <file>translations/language_ru.qm</file>
+    </qresource>
+</RCC>
