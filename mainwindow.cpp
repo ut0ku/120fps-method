@@ -402,7 +402,7 @@ MainWindow::MainWindow(QWidget *parent)
                                                           }
                                                           ));
 
-    QLabel *versionLabel = new QLabel("release_version_1.4");
+    QLabel *versionLabel = new QLabel("release_version_1.5");
     versionLabel->setStyleSheet("color: #555; font-size: 12pt;");
 
     containerLayout->addWidget(dropArea);
@@ -621,7 +621,7 @@ void MainWindow::on_saveAsButton_clicked()
 
 void MainWindow::on_tiktokButton_clicked()
 {
-    QDesktopServices::openUrl(QUrl("https://www.tiktok.com")); // TT needs updating
+    QDesktopServices::openUrl(QUrl("https://www.tiktok.com/@by.uuto")); // updated
 }
 
 void MainWindow::on_tgButton_clicked()
