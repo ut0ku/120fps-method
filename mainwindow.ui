@@ -6,25 +6,244 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>529</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>120 FPS Method</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="tgButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+background: #1c1c1c;
+border: 2px solid #333;
+border-radius: 12px;
+width: 48px;
+height: 48px;
+font-weight: bold;
+}
+QPushButton:hover {
+border-color: #e63946;
+background: #2a2a2a;
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="tiktokButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+background: #1c1c1c;
+border: 2px solid #333;
+border-radius: 12px;
+width: 48px;
+height: 48px;
+font-weight: bold;
+}
+QPushButton:hover {
+border-color: #e63946;
+background: #2a2a2a;
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="langButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+background: #1c1c1c;
+border: 2px solid #333;
+border-radius: 12px;
+width: 48px;
+height: 48px;
+font-weight: bold;
+}
+QPushButton:hover {
+border-color: #e63946;
+background: #2a2a2a;
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="helpButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+background: #1c1c1c;
+border: 2px solid #333;
+border-radius: 12px;
+width: 48px;
+height: 48px;
+font-weight: bold;
+}
+QPushButton:hover {
+border-color: #e63946;
+background: #2a2a2a;
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="font">
+       <font>
+        <family>DM Serif Display</family>
+        <pointsize>28</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>120 FPS METHOD</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">margin-bottom: 0; padding-bottom: 0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>5</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="subtitleLabel">
+      <property name="font">
+       <font>
+        <family>DM Serif Display</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>by &lt;span style='font-weight:bold;'&gt;ut0ku&lt;/span&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">margin-top: 0; padding-top: 0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="dropArea">
+      <property name="styleSheet">
+       <string notr="true">QFrame#dropArea {
+background: #121212;
+border: 2px dashed #444;
+border-radius: 12px;
+min-height: 200px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Plain</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="selectFileButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background: #141414;
+color: white;
+border: none;
+border-radius: 12px;
+font-weight: 600;
+outline: 2.9px solid #3C3C3C;
+padding: 10px 20px;
+}
+QPushButton:hover {
+background: #ff4757;
+outline: 2.9px solid #ff4757;
+}</string>
+         </property>
+         <property name="text">
+          <string>Select File</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="filePathLabel">
+         <property name="text">
+          <string>or drop MP4 file here</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveAsButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background: #141414;
+color: white;
+border: none;
+border-radius: 12px;
+font-weight: 600;
+outline: 2.9px solid #3C3C3C;
+padding: 12px 40px;
+}
+QPushButton:hover {
+background: #ff4757;
+outline: 2.9px solid #ff4757;
+}</string>
+      </property>
+      <property name="text">
+       <string>Save As</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="versionLabel">
+      <property name="styleSheet">
+       <string notr="true">color: #555; font-size: 9pt;</string>
+      </property>
+      <property name="text">
+       <string>release_version_1.0.0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
