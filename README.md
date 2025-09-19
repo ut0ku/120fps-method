@@ -6,17 +6,17 @@
   <img src="https://github.com/ut0ku/120fps-method/blob/master/images/Soft_3.png?raw=true" width="31%" />
 </p>
 
-[![Downloads](shields)](gt)
+[![Downloads](https://img.shields.io/github/downloads/ut0ku/120fps-method/total?label=Downloads)](https://github.com/ut0ku/120fps-method/releases/latest)
 ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ut0ku/120fps-method/blob/master/LICENSE)
 
-A patcher that allows you to bypass TikTok's **FPS** restrictions and download videos without **FPS** compression. [TikTok Showcase](ttlink)
+A patcher that allows you to bypass TikTok's **FPS** restrictions and download videos without **FPS** compression. [TikTok Showcase](https://www.tiktok.com/@by.uuto)
 
 **Join** the [Telegram channel](https://t.me/ut0kyo) to get more information about **fps method** & improve the **quality** of your videos.
 
 ## Download
 
-- [Windows installer](installer)
+- [Windows installer](https://github.com/ut0ku/120fps-method/releases/download/v1.4/120FPS-method-Release-x64-installer.exe)
 
 ## Introduction
 
